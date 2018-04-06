@@ -1,4 +1,4 @@
-PROJNAME=ib_quiet_paper
+PROJNAME=paper
 
 # You want latexmk to *always* run, because make does not have all the info.
 # Also, include non-file targets in .PHONY so they are run regardless of any
