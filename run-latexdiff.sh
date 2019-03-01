@@ -1,0 +1,1 @@
+git latexdiff --no-cleanup --prepare 'echo Copying from '"$PWD"' to $PWD; rsync -avL --exclude=.git --include=\*/ --include=\*.pdf --include=tables/\*.tex --include=\*.ini --exclude=\* '"$PWD"'/ .' --ignore-makefile --latexmk $@
