@@ -1,15 +1,22 @@
-\documentclass[draft,linenumbers]{agujournal}
+\documentclass[draft]{agujournal}
+\usepackage{apacite}
+\usepackage{url}
+\usepackage{lineno}
+\linenumbers
 
-\journalname{}
+\draftfalse
+
+\journalname{Enter journal name here}
 
 
 \begin{document}
 
 %% ------------------------------------------------------------------------ %%
 %  Title
+%
 %% ------------------------------------------------------------------------ %%
 
-\title{The Title}
+\title{=enter title here=}
 
 %% ------------------------------------------------------------------------ %%
 %
@@ -17,19 +24,20 @@
 %
 %% ------------------------------------------------------------------------ %%
 
-\authors{First Author\affil{1},
-Second Author\affil{1}}
+\authors{=list all authors here=}
 
-\affiliation{1}{Climate and Space Sciences, University of Michigan, Ann Arbor, MI, USA.}
+
+\affiliation{=number=}{=Affiliation Address=}
 
 %% Corresponding Author:
 
-\correspondingauthor{First Author}{firstauthor@umich.edu}
+\correspondingauthor{=name=}{=email address=}
 
-%% Keypoints, final entry on title page. 
+%% Keypoints, final entry on title page.
 
-%\begin{keypoints}
-%\end{keypoints}
+\begin{keypoints}
+\item
+\end{keypoints}
 
 %% ------------------------------------------------------------------------ %%
 %
@@ -37,36 +45,19 @@ Second Author\affil{1}}
 %
 %% ------------------------------------------------------------------------ %%
 
-%% \begin{abstract} starts the second page 
+%% \begin{abstract} starts the second page
 
 \begin{abstract}
 \end{abstract}
 
 
-%% ------------------------------------------------------------------------ %%
-%
-%  TEXT
-%
-%% ------------------------------------------------------------------------ %%
 
-\appendix
 
 
 \acknowledgments
 
 
-%% ------------------------------------------------------------------------ %%
-%% Citations
 
-%%  REFERENCE LIST AND TEXT CITATIONS
-
-\bibliography{sources}
-
-%% After you run BibTeX, Copy in the contents of the .bbl file here:
-
-
-%%%
-\listofchanges
-%%%
+\bibliography{sources.bib}
 
 \end{document}
